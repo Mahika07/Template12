@@ -1,0 +1,195 @@
+@media screen and (max-width: 700px) {
+  .contact_container {
+    flex-direction: column;
+  }
+
+  .contact_form {
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  .side_box {
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  .section6 {
+    background: white;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .service_container {
+    flex-direction: column-reverse;
+  }
+
+  .service_content {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 997px) {
+
+  .project_content,
+  .project_img img,
+  .project_details {
+    height: 500px;
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+  .section3 .exp_container:nth-child(2) {
+    flex-direction: column !important;
+  }
+
+  .exp_container {
+    flex-direction: column-reverse;
+  }
+
+  .exp_date,
+  .exp_heading,
+  .exp_company {
+    text-align: center;
+  }
+
+  .exp_no {
+    margin: 20px auto;
+    width: 100px !important;
+  }
+
+  .project_container {
+    flex-direction: column;
+  }
+
+  .project_content {
+
+    width: 90%;
+    height: 400px;
+    margin: 20px auto;
+  }
+
+  .project_details {
+    height: 400px;
+  }
+
+  .project_img img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .home_skills {
+    flex-direction: column;
+    margin-top: 80px;
+  }
+
+  .skill_box {
+    width: 180px;
+    height: 150px;
+    margin: 10px auto;
+    position: static;
+  }
+
+
+}
+
+@media only screen and (max-width:570px) {
+
+  .home_img {
+    margin-top: 50px;
+  }
+
+
+}
+
+
+
+@media only screen and (min-width:1500px) {
+  .section02 {
+    height: 41vw !important;
+  }
+
+
+}
+
+@media only screen and (min-width:2000px) {
+  .section02 {
+    height: 39vw !important;
+  }
+
+
+}
+
+@media only screen and (max-width:1187px) {
+  .section02 {
+    height: 58vh !important;
+  }
+
+
+}
+
+@media only screen and (max-width:900px) {
+  .section02 {
+    height: 60vh !important;
+  }
+
+
+}
+
+@media only screen and (max-width:848px) {
+  .section02 {
+    height: max-content !important;
+  }
+
+}
+
+@media only screen and (max-width:651px) {
+  .section02 {
+    height: max-content !important;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+  }
+}
+
+@media only screen and (max-width:700px) {
+
+  .home_skills .skill_box:nth-child(1),
+  .home_skills .skill_box:nth-child(3) {
+    top: 14vw;
+  }
+
+  .home_skills .skill_box:nth-child(2),
+  .home_skills .skill_box:nth-child(4) {
+    top: 30vw;
+  }
+
+}
+
+@media only screen and (max-width:700px) {
+
+  .home_heading,
+  .home_subtitle {
+    text-align: center;
+  }
+
+  .submit_btn {
+    width: 90%;
+  }
+
+}
+
+
+
+@media only screen and (max-width:700px) {
+  #navbarSupportedContent {
+    padding: 20px 0px;
+  }
+
+  .resume_btn {
+    display: flex;
+    justify-content: end;
+  }
+
+}
